@@ -75,6 +75,7 @@ public class TOTController {
     private void electRuler(){
         Set<Kingdom> candidates=new HashSet<>();
         String candidate=null;
+        System.out.println("Enter candidate names line by line ( Press <ENTER> at last to stop giving input ) >>");
         while(!(candidate=scanner.nextLine()).isEmpty()){
             if(!validateKingdomName(candidate)){
                 System.err.println("Invalid candidate:"+candidate);
@@ -106,13 +107,17 @@ public class TOTController {
         scanner.reset();
         while(!(input=scanner.nextLine()).isEmpty()){
             String[] inputs=input.split(" ");
-            String receiverName=inputs[0].toLowerCase();
-            boolean isValid=validateKingdomName(receiverName);
-            if(isValid) {
-                String messageStr = inputs[1].toLowerCase();
-                Kingdom receiver=kingdoms.get(receiverName);
-                Message message = new Message(messageStr,sender,receiver);
-                messages.add(message);
+            if(inputs.length==2) {
+                String receiverName = inputs[0].toLowerCase();
+                boolean isValid = validateKingdomName(receiverName);
+                if (isValid) {
+                    String messageStr = inputs[1].toLowerCase();
+                    Kingdom receiver = kingdoms.get(receiverName);
+                    Message message = new Message(messageStr, sender, receiver);
+                    messages.add(message);
+                }
+            }else{
+                System.err.println("Give input in the given format <KINGDOM_NAME> <MESSAGE>");
             }
         }
         Kingdom ruler=conquerTheWorld(sender,messages);

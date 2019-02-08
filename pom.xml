@@ -23,11 +23,6 @@
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
-        <!--
-            If your IDE throws an exception when you try to run the example
-            test, it's not bundled with the correct JUnit 5 version. You can
-            solve this problem by uncommenting the following dependencies.
-        -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -82,6 +77,20 @@
                         <version>${junit.jupiter.version}</version>
                     </dependency>
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>com.everest.TOTController</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
