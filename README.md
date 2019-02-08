@@ -11,6 +11,6 @@ This project is a solution to famous problem from GeekTrust.
 1) Change your working directory to this directory ( cd <PATH>/TameOfThrones )
 2) Execute ' mvn clean test '
 
-Notes:
-1) To execute command line : mvn clean test && mvn exec:java -Dexec.mainClass="com.everest.TOTController"
-2) To test : mvn clean test
+<b>Notes:</b>
+1) To execute command line : <b>mvn clean test && mvn exec:java -Dexec.mainClass="com.everest.TOTController"</b>
+2) To test : <b>mvn clean test</b>
