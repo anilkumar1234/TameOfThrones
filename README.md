@@ -9,8 +9,9 @@ This project is a solution to famous problem from GeekTrust.
 # How to test ?
 
 1) Change your working directory to this directory ( cd <PATH>/TameOfThrones )
-2) Execute ' mvn clean test '
+  
+2) Execute <b>mvn clean test</b>
+  
+# How to execute ?
 
-<b>Notes:</b>
-1) To execute command line : <b>mvn clean test && mvn exec:java -Dexec.mainClass="com.everest.TOTController"</b>
-2) To test : <b>mvn clean test</b>
+<b>mvn clean test && mvn exec:java -Dexec.mainClass="com.everest.TOTController"</b>
