@@ -1,6 +1,6 @@
 # TameOfThrones
 
-This project is a solution to famous TameOfThronws problem from GeekTrust.
+This project is a solution to famous problem from GeekTrust.
 
 # Prerequisites
 1) Java8
