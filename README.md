@@ -22,82 +22,78 @@ Select any option:
 1) Who is the ruler of Southeros?
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
-4) Select ruler by election
-<b>Input:</b> 1
+4) Select ruler by election<br/>
+<b>Input:</b> 1<br/>
 <b>Output:</b> None
 
 Select any option:
 1) Who is the ruler of Southeros?
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
-4) Select ruler by election
-<b>Input:</b> 2
+4) Select ruler by election<br/>
+<b>Input:</b> 2<br/>
 <b>Output:</b> None
 
 Select any option:
 1) Who is the ruler of Southeros?
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
-4) Select ruler by election
-<b>Input:</b> 3
-Air lOsadoowerph
-lAnD adaklpdn
-ICE daqwmeaopuieemxamvcofethMM
+4) Select ruler by election<br/>
+<b>Input:</b> 3<br/>
+Air lOsadoowerph<br/>
+lAnD adaklpdn<br/>
+ICE daqwmeaopuieemxamvcofethMM<br/>
 
 
 Select any option:
 1) Who is the ruler of Southeros?
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
-4) Select ruler by election
-<b>Input:</b> 1
-<b>Output:</b> space
+4) Select ruler by election<br/>
+<b>Input:</b> 1<br/>
+<b>Output:</b> space<br/>
 
 Select any option:
 1) Who is the ruler of Southeros?
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
-4) Select ruler by election
-<b>Input:</b> 2
-<b>Output:</b> [air, land, ice]
+4) Select ruler by election<br/>
+<b>Input:</b> 2<br/>
+<b>Output:</b> [air, land, ice]<br/>
 
 Select any option:
 1) Who is the ruler of Southeros?
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
-4) Select ruler by election
-<b>Input:</b> 4
-Enter candidate names line by line ( Press <ENTER> at last to stop giving input ) >>
-land
-Space
-Invalid Kingdom name..Ignoring
-Invalid candidate:Space
-space
-air
+4) Select ruler by election<br/>
+<b>Input:</b> 4<br/>
+land<br/>
+space<br/>
+air<br/>
 
-<b>Output:</b> 
-Results after round #1 ballot count
-Allies for land : 1
-Allies for air : 1
-Allies for space : 0
+<b>Output:</b> <br/>
+Results after round #1 ballot count<br/>
+Allies for land : 1<br/>
+Allies for air : 1<br/>
+Allies for space : 0<br/>
 
-Results after round #2 ballot count
-Allies for land : 1
-Allies for air : 0
+Results after round #2 ballot count<br/>
+Allies for land : 1<br/>
+Allies for air : 0<br/>
 
 Select any option:
 1) Who is the ruler of Southeros?
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
-4) Select ruler by election
-<b>Input:</b> 1
-<b>Output:</b> land
+4) Select ruler by election<br/>
+<b>Input:</b> 1<br/>
+<b>Output:</b> land<br/>
 
 Select any option:
 1) Who is the ruler of Southeros?
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
-4) Select ruler by election
-<b>Input:</b> 2
-<b>Output:</b> [fire]
+4) Select ruler by election<br/>
+<b>Input:</b> 2<br/>
+<b>Output:</b> [fire]<br/>
 
