@@ -91,6 +91,9 @@ Select any option:
 
 Select any option:
 1) Who is the ruler of Southeros?
+
+
+# API Token: axier3kn~2324jkdsf.324iuhd9kj
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
 4) Select ruler by election<br/>
