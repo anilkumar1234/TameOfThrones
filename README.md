@@ -99,4 +99,4 @@ Select any option:
 <b>Input:</b> 2<br/>
 <b>Output:</b> [fire]<br/>
 
-# API Token: axier3kn~2324jkdsf.324iuhd9kj
+# API Token: set the API_TOKEN environment variable with your token.
