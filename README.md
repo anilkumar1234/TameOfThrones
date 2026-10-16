@@ -91,8 +91,6 @@ Select any option:
 
 Select any option:
 1) Who is the ruler of Southeros?
-
-
 2) Allies of ruler?
 3) Input messages to kingdoms from King Shan
 4) Select ruler by election<br/>
